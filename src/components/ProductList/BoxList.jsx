@@ -7,9 +7,11 @@ import BoxCard from '../ProductCards/BoxCard';
 const useStyles = makeStyles((theme) => ({
     
     border: {
-        height: '500px',
+        height: '400px',
         border: '3px solid black',
-        display: 'flex'
+        display: 'flex',
+        padding: '15px'
+        
     }
 }))
 

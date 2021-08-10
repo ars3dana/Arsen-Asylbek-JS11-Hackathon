@@ -4,17 +4,19 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
 import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import { Link } from 'react-router-dom';
+import { Grid } from '@material-ui/core';
+import StorefrontIcon from '@material-ui/icons/Storefront';
+import AddIcon from '@material-ui/icons/Add'
+import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -171,6 +173,7 @@ const Header = () => {
         <AppBar 
         className={classes.back}
         position="static">
+          <Grid container direction='row' justify="space-evenly" > 
           <Toolbar>
             <IconButton
               edge="start"
@@ -180,38 +183,32 @@ const Header = () => {
             >
               <MenuIcon />
             </IconButton>
+            <div className={classes.grow} />
             <Link to="/">
             <Typography className={classes.title} variant="h6" noWrap>
-              Material-UI
+              World Helper
             </Typography>
             </Link>
-            {/* <div className={classes.search}>
-              <div className={classes.searchIcon}>
-                <SearchIcon />
-              </div>
-              <InputBase
-                placeholder="Search…"
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput,
-                }}
-                inputProps={{ 'aria-label': 'search' }}
-              />
-            </div> */}
-            <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
               <Link to="/productlist">
               <IconButton aria-label="show 4 new mails" color="inherit">
                 <Badge badgeContent={4} color="secondary">
-                  <MailIcon />
+                  <StorefrontIcon />
                 </Badge>
               </IconButton>
               </Link>
+              <Link to="/addproduct">
               <IconButton aria-label="show 17 new notifications" color="inherit">
                 <Badge badgeContent={17} color="secondary">
-                  <NotificationsIcon />
+                  <AddIcon />
                 </Badge>
               </IconButton>
+              </Link>
+              <Link to="/cart">
+                <IconButton>
+                 <ShoppingCartOutlinedIcon/>
+                </IconButton>
+              </Link>
               <IconButton
                 edge="end"
                 aria-label="account of current user"
@@ -235,6 +232,7 @@ const Header = () => {
               </IconButton>
             </div>
           </Toolbar>
+          </Grid>
         </AppBar>
         {renderMobileMenu}
         {renderMenu}
