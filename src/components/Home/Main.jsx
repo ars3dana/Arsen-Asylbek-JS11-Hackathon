@@ -1,37 +1,28 @@
-import { Container, makeStyles } from '@material-ui/core';
+import { Container, Grid, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
+import { color } from '../../helpers/consts';
 
-const useStyles = makeStyles(theme =>({
-    background: {
-        background: `url(${'https://nechytailo.fund/images/%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BB%D1%8E%D0%B4%D1%8F%D0%BC/%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BB%D1%8E%D0%B4%D1%8F%D0%BC.jpg'}) no-repeat`,
-        width: '98vw',
-        height: 600,
-        backgroundSize: '100%'
-
+const useStyles = makeStyles((theme)=> ({
+    main: {
+        height:'600px',
     },
     title: {
-        color: 'white',
-        fontSize: 90
-    },
-    title3:{
-        color: '#212121',
-        fontSize: 70,
-    },
-    position: {
-        height:600,
-        textAlign: 'center'
+        fontSize: 65,
+        fontFamily: 'Roboto',
+        fontWeight: 900,
+        textShadow: '9px 18px 23px rgba(0,0,0,9)',
+        color: color,
+
     }
 }))
 const Main = () => {
     const classes = useStyles()
     return (
-        <div className={classes.background}>
-           <Container className={classes.position}>
-            <h1 className={classes.title}>Добро спасает Мир</h1>
-           
-            <h3 className={classes.title3}>Помоги людям стать добрее</h3>
-           </Container>
-        </div>
+        <Grid container alignItems="center" justify="center" className={classes.main}>
+            <Typography className={classes.title}>
+                ПОМОГАЙ И УЛУЧШАЙ МИР
+            </Typography>
+        </Grid>
     );
 };
 

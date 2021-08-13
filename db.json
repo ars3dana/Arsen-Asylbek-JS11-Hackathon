@@ -1,39 +1,29 @@
 {
   "boxs": [
     {
-      "title": " Малая Коробка",
+      "title": "Коробка М",
       "description": "В коробку входит питание на 3 дня. Макароны, гречка, рис, овощи. Коробку передадут одной семье в которой 3-5 челоека",
-      "type": "Box",
+      "type": "box",
       "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
       "price": 25,
       "id": 1
     },
     {
-      "title": " Средняя Коробка",
+      "title": "Коробка S",
       "description": "В коробку входит питание на 5 дня. Макароны, гречка, рис, овощи, чай, соль, сахар. Коробку передадут одной семье в которой 3-5 челоека",
-      "type": "Box",
+      "type": "box",
       "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
-      "price": 25,
+      "price": 35,
       "id": 2
     },
     {
-      "title": " Большая Коробка ",
+      "title": "Коробка X",
       "description": "В коробку входит питание на 3 дня. Макароны, гречка, рис, овощи, овощи, чай, соль, сахар, мясо, напитки. Коробку передадут одной семье в которой 3-6 челоека",
-      "type": "Box",
+      "type": "box",
       "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
       "price": 45,
       "id": 3
-    },
-    {
-      "title": "Коробка с напитками",
-      "description": "В коробку входят напитки ",
-      "type": "Box",
-      "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
-      "price": 12,
-      "id": 4
-    }
-  ],
-  "items": [
+  },
     {
       "title": "Футболка (World Helper)",
       "description": "Будь в ряду спасателей",
@@ -73,6 +63,14 @@
       "type": "item",
       "price": 5,
       "id": 10
+    }
+  ],
+  "news": [
+    {
+      "title": "Наш первый сбор",
+      "description": "Сегодня наша команда волонтеров помогла семье из Бразилии. Собирался ",
+      "image": "dasdas", 
+      "id": 11
     }
   ]
 }

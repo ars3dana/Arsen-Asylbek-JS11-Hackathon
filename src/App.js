@@ -1,12 +1,16 @@
-import Routes from "./Routes/Routes";
+import Routes from './Routes/Routes';
+import './index.css'
 
-
-function App() {
+const App = () => {
+  
   return (
-    <div className="App">
+    <div>
       <Routes/>
     </div>
+     
   );
-}
+};
 
 export default App;
+
+

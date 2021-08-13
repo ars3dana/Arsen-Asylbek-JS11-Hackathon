@@ -1,27 +1,45 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import AddProdcut from '../components/Admin/AddProdcut';
-import EditProduct from '../components/Admin/EditProduct';
+import AddProductPage from '../Admin/AddProductPage';
+import EditProductPage from '../Admin/EditProductPage';
 import Cart from '../components/Cart/Cart';
 import Header from '../components/Header/Header';
 import Home from '../components/Home/Home';
-import ProductList from '../components/ProductList/ProductList';
-import ContextProvider from '../contexts/Context';
+import ProductDetails from '../components/ProductDetails';
+import ProductContextProvider from '../contexts/ProductContext';
+import ProductList from '../components/ProductList'
+import PrivateRoute from './PrivateRoute';
+import Signup from '../Auth/SignUp';
+import Login from '../Auth/Login';
+import AuthContextProvider from '../contexts/AuthContext';
+import ForgotPassword from '../Auth/ForgotPassword';
+import UpdateProfile from '../Auth/UpdateProfile';
+import Creditcard from '../components/CreditCard/CreditCard';
+
+
 
 const Routes = () => {
     return (
-       <BrowserRouter>
-       <ContextProvider>
-        <Header/>
-        <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/productlist" component={ProductList}/>
-            <Route exact path="/addproduct" component={AddProdcut}/>
-            <Route exact path="/edit/:id" component={EditProduct}/>
-            <Route exact path="/cart" component={Cart}/>
-        </Switch>
-       </ContextProvider>
-       </BrowserRouter>
+        <AuthContextProvider>
+        <BrowserRouter>
+        <ProductContextProvider>
+            <Header/>
+            <Switch>
+                <PrivateRoute exact path="/" component={Home}/>
+                <PrivateRoute path="/update-profile" component={UpdateProfile} />
+                <Route exact path="/list" component={ProductList}/>
+                <Route exact path="/addproduct" component={AddProductPage}/>
+                <Route exact path="/cart" component={Cart}/>
+                <Route exact path='/details/:id' component={ProductDetails}/>
+                <Route exact path="/edit/:id" component={EditProductPage}/>
+                <Route exact path='/signup' component={Signup}/>
+                <Route exact path='/login' component={Login}/>
+                <Route exact path='/forgot-password' component={ForgotPassword}/>
+                <Route exact path="/pay" component={Creditcard}/>
+            </Switch>
+         </ProductContextProvider>
+        </BrowserRouter>
+        </AuthContextProvider>
     );
 };
 

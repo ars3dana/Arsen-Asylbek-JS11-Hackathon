@@ -1,15 +1,20 @@
+import { Container, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
-import Container from '@material-ui/core/Container'
-import 'semantic-ui-css/semantic.min.css'
 
-
+const useStyles = makeStyles((theme) => ({
+    back: {
+        fontSize: '25px',
+        backgroundColor: 'rgb(56,40,23,0.6)'
+    }
+}))
 const Info = () => {
+    const classes = useStyles()
     return (
-      <Container>
-          <h1>Lorem ipsum di illo. Assumenda fuga consequatur dicta necessitatibus inventore facere voluptatem impedit, provident voluptatum vero esse odit aperiam, natus quos corrupti nam rem fugiat rerum, deserunt suscipit. Incidunt quos error, corrupti provident eveniet enim nam porro ea iure debit cum vitae mollitia nemo sunt voluptatum, hic molestias neque dolores possimus fuga perspiciatis unde magnam doloremque ratione distinctio aliquid libero officia dolore, officiis accusantium? Voluptatem quasi error placeat nulla hic laboriosam, iure porro minima itaque ratione quae impedit tempore perspiciatis sequi distinctio. Similique, aperiam! Consectetur facilis error facere aperiam quo recusandae optio hic odit pariatur illo ipsam, adipisci repellendus quis dolore quae beatae accusantium iure dicta iusto mollitia ex inventore quas veniam obcaecati! Commodi dolorem aliquid, nemo sint voluptates quo officia porro ab!</h1>
-         
+        <Container className={classes.back}>
+            <Typography className={classes.back}>
+                World Helper - Компания которая помогает людям, которые нуждаются в помощи. Помощь идет посредством пожертвования, которые вы можете найти у нас на странице. Наша компания ценит любую помощь. World Helper работает с 2015 года и помогла более 100 000 семьям и построило 8 домов. 
+            </Typography>
         </Container>
-        
     );
 };
 
