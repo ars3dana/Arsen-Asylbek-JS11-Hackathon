@@ -14,7 +14,8 @@ import Login from '../Auth/Login';
 import AuthContextProvider from '../contexts/AuthContext';
 import ForgotPassword from '../Auth/ForgotPassword';
 import UpdateProfile from '../Auth/UpdateProfile';
-import Creditcard from '../components/CreditCard/CreditCard';
+import Creditcard from '../components/creditCard/CreditCard';
+
 
 
 
