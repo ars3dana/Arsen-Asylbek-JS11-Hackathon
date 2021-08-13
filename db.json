@@ -4,7 +4,7 @@
       "title": "Коробка М",
       "description": "В коробку входит питание на 3 дня. Макароны, гречка, рис, овощи. Коробку передадут одной семье в которой 3-5 челоека",
       "type": "box",
-      "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
+      "image": "https://media.istockphoto.com/photos/thailand-vegetable-food-picture-id486271572",
       "price": 25,
       "id": 1
     },
@@ -12,7 +12,7 @@
       "title": "Коробка S",
       "description": "В коробку входит питание на 5 дня. Макароны, гречка, рис, овощи, чай, соль, сахар. Коробку передадут одной семье в которой 3-5 челоека",
       "type": "box",
-      "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
+      "image": "https://media.istockphoto.com/photos/thailand-vegetable-food-picture-id486271572",
       "price": 35,
       "id": 2
     },
@@ -20,14 +20,14 @@
       "title": "Коробка X",
       "description": "В коробку входит питание на 3 дня. Макароны, гречка, рис, овощи, овощи, чай, соль, сахар, мясо, напитки. Коробку передадут одной семье в которой 3-6 челоека",
       "type": "box",
-      "image": "https://cdn.motor1.com/images/mgl/JmVR6/s1/4x3/2019-audi-r8-onlocation.webp",
+      "image": "https://media.istockphoto.com/photos/thailand-vegetable-food-picture-id486271572",
       "price": 45,
       "id": 3
-  },
+    },
     {
       "title": "Футболка (World Helper)",
       "description": "Будь в ряду спасателей",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tongue.agr.jpg/250px-Tongue.agr.jpg",
+      "image": "https://scontent.ffru1-2.fna.fbcdn.net/v/t1.6435-9/235344661_378337660663095_730446957340656771_n.jpg?_nc_cat=105&ccb=1-4&_nc_sid=730e14&_nc_ohc=oU21QGoohS0AX-5egfF&_nc_oc=AQlR_qhbRbkSJEsJfiLW6xZ-ipCvcinL2EJ5jgzLMNIrDOxvvJqog0jIQR7DPHl4Hxo&_nc_ht=scontent.ffru1-2.fna&oh=c4285f1a9b191e98b86aad7fd1ea3aca&oe=613B1346",
       "type": "item",
       "price": 5,
       "id": 6
@@ -35,7 +35,7 @@
     {
       "title": "Футболка (I am Hero)",
       "description": "Будь в ряду спасателей",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tongue.agr.jpg/250px-Tongue.agr.jpg",
+      "image": "https://scontent.ffru1-1.fna.fbcdn.net/v/t1.6435-9/p206x206/235930357_378337710663090_4807896259781707462_n.jpg?_nc_cat=109&ccb=1-4&_nc_sid=da31f3&_nc_ohc=NXeu-yjf0yUAX_ImHrC&_nc_ht=scontent.ffru1-1.fna&oh=51472992fb0342a05b1ff9c425b84c88&oe=613C8901",
       "type": "item",
       "price": 5,
       "id": 7
@@ -43,7 +43,7 @@
     {
       "title": "Кепка (World Helper)",
       "description": "Будь в ряду спасателей",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tongue.agr.jpg/250px-Tongue.agr.jpg",
+      "image": "https://scontent.ffru1-2.fna.fbcdn.net/v/t1.6435-9/235940846_378337440663117_5804673311593361954_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=730e14&_nc_ohc=XK9xMx4zmQcAX_sJQr3&_nc_ht=scontent.ffru1-2.fna&oh=a9222d20ab30c2f3d26255fd79059590&oe=613A129A",
       "type": "item",
       "price": 5,
       "id": 8
@@ -51,7 +51,7 @@
     {
       "title": "Кружка (World Helper)",
       "description": "Будь в ряду спасателей",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tongue.agr.jpg/250px-Tongue.agr.jpg",
+      "image": "https://scontent.ffru1-2.fna.fbcdn.net/v/t1.6435-9/236265112_378337550663106_775527051287802415_n.jpg?_nc_cat=102&ccb=1-4&_nc_sid=730e14&_nc_ohc=twoch9tOn9EAX-jZhcr&_nc_oc=AQn9rtSojFAz_MIuF0Yu8a7XsQHinoUSMIPKx4qls2z4VSsyzTdcJ9H-jlXBVKYN9b8&_nc_ht=scontent.ffru1-2.fna&oh=b755a20d34c094546552e37dab5400ad&oe=613ACC12",
       "type": "item",
       "price": 5,
       "id": 9
@@ -59,18 +59,42 @@
     {
       "title": "Набор наклеек (World Helper)",
       "description": "Будь в ряду спасателей",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tongue.agr.jpg/250px-Tongue.agr.jpg",
+      "image": "https://www.worldchangersfireassembly.org/wp-content/uploads/2020/07/World-Changers-512-Pixel-Logo.png",
       "type": "item",
       "price": 5,
       "id": 10
-    }
-  ],
-  "news": [
+    },
     {
-      "title": "Наш первый сбор",
-      "description": "Сегодня наша команда волонтеров помогла семье из Бразилии. Собирался ",
-      "image": "dasdas", 
-      "id": 11
+      "title": "Каробка с овощами",
+      "description": "В каробку входит огурцы, помидоры, капуста, перец, картошка, лук все по 1кг",
+      "type": "Box",
+      "image": "https://images.unsplash.com/photo-1551326844-58f5b65b33f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+      "price": 12,
+      "id": 5
+    },
+    {
+      "title": "Каробка с фруктами",
+      "description": "В каробку входит ананас, банан, яблока, груша, персик, винограды все по 0.5кг",
+      "type": "Box",
+      "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "price": 12,
+      "id": 6
+    },
+    {
+      "title": "Каробка с малочными продуктами",
+      "description": "В каробку входит сливочное масло, сыр, сырныки, плавленный сыр",
+      "type": "Box",
+      "image": "https://i1.wp.com/crispy.news/wp-content/uploads/2019/11/1-40.jpg?fit=1200%2C600&ssl=1",
+      "price": 12,
+      "id": 7
+    },
+    {
+      "title": "Универсальная каробка ",
+      "description": "В каробку входит продукты питания как: овощи, фрукты, макороны, мука, малочные продукты ",
+      "type": "Box",
+      "image": "https://images.unsplash.com/photo-1519987684948-d25dbcf146db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "price": 12,
+      "id": 8
     }
   ]
 }
